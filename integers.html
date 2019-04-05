@@ -1,0 +1,31 @@
+-<!DOCTYPE html>
+<html>
+<head>
+  <h1>Largest of 3 integers</h1>
+</head>
+<script>
+function max_integer(a, b, c) 
+ {
+  max_val = 0;
+  if (a > b)
+  {
+    max_val = a;
+  } else
+  {
+    max_val = b;
+  }
+  if (c > max_val) 
+  {
+    max_val = c;
+  }
+  return max_val;
+}
+
+console.log(max_integer(5,12,7));
+console.log(max_integer(0,-30,77));
+console.log(max_integer(1000,450,99));
+</script>
+<body>
+
+</body>
+</html>
